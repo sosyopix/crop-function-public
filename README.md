@@ -1,13 +1,6 @@
-# sosyopix-crop
+# inits.com - crop function example
 
-### How to deploy from local
-`func azure functionapp publish crop-west-europe-v31-win`
+### Test crop request
+https://crop-west-europe-v31-win.azurewebsites.net/api/CropFunction?i=01c769dabe-6b8f-4fd5-bd90-4fea6e40ef56_Gal&a=0&w=200&h=200&s=0.2
 
-`func azure functionapp publish crop-west-europe-win`
-
-### Test request
-**West Europe - Windows DotnetCore 3.1**  
-https://crop-west-europe-v31-win.azurewebsites.net/api/CropFunction?i=11d8d616d0-14ff-4d6f-84b9-4bc30936cdae&a=270&x=000&y=50&w=500&h=400&s=0.6354
-
-**West Europe - Windows DotnetCore 2.0**  
-https://crop-west-europe-win.azurewebsites.net/api/CropFunction?i=11d8d616d0-14ff-4d6f-84b9-4bc30936cdae&a=270&x=000&y=50&w=500&h=400&s=0.6354
+https://www.inits.com
